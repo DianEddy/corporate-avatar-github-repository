@@ -40,11 +40,14 @@ export default function Page() {
           <a className="button button-dark" href="#experience">Explore the experience <ArrowUpRight size={16} /></a>
         </div>
         <div className="hero-art" aria-label="Abstract fabric sculpture" role="img">
+          <div className="art-grid" aria-hidden="true" />
           <div className="fabric-ring fabric-ring-one" />
           <div className="fabric-ring fabric-ring-two" />
           <div className="fabric-fold" />
+          <div className="art-stamp" aria-hidden="true"><span>24</span><small>hours<br />in motion</small></div>
           <p className="art-caption">A study in<br />soft power</p>
         </div>
+        <div className="hero-signal" aria-hidden="true"><span>On air</span><i /><span>NYC / 001</span></div>
         <div className="hero-footer">
           <span>New York City</span><span>Dates to be announced</span><span>In person + broadcast</span>
         </div>

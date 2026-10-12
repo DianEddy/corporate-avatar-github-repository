@@ -28,12 +28,18 @@ h1 em, h2 em { font-family: Georgia, 'Times New Roman', serif; font-weight: 400;
 .button-dark { background: var(--ink); color: var(--paper); }
 .button-light { background: var(--acid); color: var(--ink); }
 .hero-art { height: 64vh; position: absolute; right: 5vw; top: 10vh; width: min(52vw, 680px); }
+.art-grid { background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px); background-size: 34px 34px; height: 78%; inset: 2% 4% 20% 8%; opacity: .45; position: absolute; transform: rotate(-7deg); }
+.art-stamp { align-items: center; border: 1px solid var(--ink); border-radius: 50%; display: flex; gap: 8px; height: 93px; justify-content: center; position: absolute; right: 17%; text-transform: uppercase; top: 4%; transform: rotate(11deg); width: 93px; }
+.art-stamp span { font-size: 30px; font-weight: 800; letter-spacing: -.1em; }
+.art-stamp small { font-size: 8px; letter-spacing: .06em; line-height: 1.05; }
 .fabric-ring { border: 2px solid var(--ink); border-radius: 48% 52% 46% 54%; height: 70%; left: 20%; position: absolute; top: 10%; transform: rotate(-24deg); width: 48%; }
 .fabric-ring-one { border-color: var(--rust); border-width: 14px 2px 2px 7px; box-shadow: 17px -22px 0 -14px var(--acid); }
 .fabric-ring-two { height: 68%; left: 25%; opacity: .35; top: 18%; transform: rotate(31deg); width: 46%; }
 .fabric-fold { background: var(--ink); clip-path: polygon(48% 0, 76% 25%, 100% 71%, 64% 100%, 38% 74%, 0 55%, 26% 24%); height: 52%; left: 27%; opacity: .95; position: absolute; top: 22%; transform: rotate(-9deg); width: 42%; }
 .fabric-fold::after { background: var(--paper); clip-path: polygon(48% 0, 76% 25%, 100% 71%, 64% 100%, 38% 74%, 0 55%, 26% 24%); content: ''; inset: 8%; position: absolute; }
 .art-caption { bottom: 15%; font-family: Georgia, serif; font-size: 15px; font-style: italic; line-height: 1.1; position: absolute; right: 5%; }
+.hero-signal { align-items: center; display: flex; font-size: 9px; gap: 9px; letter-spacing: .12em; position: absolute; right: 4vw; text-transform: uppercase; top: 34px; }
+.hero-signal i { background: var(--rust); border-radius: 50%; height: 7px; width: 7px; }
 .hero-footer { border-top: 1px solid var(--line); bottom: 29px; display: flex; font-size: 10px; justify-content: space-between; left: 4vw; letter-spacing: .1em; padding-top: 13px; position: absolute; right: 4vw; text-transform: uppercase; }
 .statement-section, .program-section, .archive-section { border-top: 1px solid var(--line); padding: 78px 4vw 120px; }
 .statement-grid { display: grid; gap: 12vw; grid-template-columns: 1.1fr 1fr; }
