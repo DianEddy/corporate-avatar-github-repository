@@ -18,7 +18,7 @@ This repository is the public project desk for **Corporate Avatar: Off Duty** â€
 - [Public program](program/program-short.md)
 - [Participation opportunities](cast-and-participation/opportunities.md)
 - [Partnership overview](partnerships/partnership-overview.md)
-- [Approved event materials](public/docs/)
+- [Approved event materials](public/scripts/) and [partner materials](public/partnerships/)
 
 ## Public repository map
 
@@ -26,14 +26,15 @@ This repository is the public project desk for **Corporate Avatar: Off Duty** â€
 | --- | --- |
 | `docs/` | Concept, creative direction, experience overview and FAQs |
 | `program/` | Public chapters, schedule and experience map |
-| `script/` | Approved public narrative materials |
+| `public/scripts/` | Approved event scripts and narrative materials |
 | `cast-and-participation/` | Roles, participation guidance and expressions of interest |
 | `partnerships/` | Sponsor and partner opportunities |
+| `public/partnerships/` | Downloadable partner briefs and opportunity materials |
 | `vendors-and-makers/` | Vendor, maker and fashion ecosystem opportunities |
 | `production/` | Public production and format overview |
-| `media/` | Approved brand and press assets |
+| `public/media/` | Approved brand and press assets |
 | `templates/` | Reusable public collaboration documents |
-| `website/` | Landing page source for the public project desk |
+| `app/` | Landing page source for the public project desk |
 
 The landing page is the visitor-facing front door. This repository is the transparent, version-controlled archive behind it.
 
