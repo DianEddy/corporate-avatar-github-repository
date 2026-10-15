@@ -23,6 +23,7 @@ This repository is the public project desk for **Corporate Avatar: Off Duty**: a
 - [Open roles and current status](cast-and-participation/OPEN-ROLES.md)
 - [Eight-episode series brief](production/eight-episode-series.md)
 - [Partnership overview](partnerships/partnership-overview.md)
+- [Presenting-sponsor strategy](partnerships/presenting-sponsor-strategy.md)
 - [Public partnership materials](public/partnerships/)
 
 ## Join the team
