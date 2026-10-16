@@ -1,12 +1,26 @@
 import { NextResponse } from 'next/server'
-import { createGmailDraft, gmailErrorMessage, getMailboxProfile, listRecentMessages } from '@/lib/gmail'
+import { createGmailDraft, gmailErrorMessage, getMailboxProfile, listGmailDrafts, listRecentMessages } from '@/lib/gmail'
+
+const prospects = [
+  { id: 'p1', organisation: 'BBC Studios', market: 'UK', fit: 'Entertainment and unscripted storytelling', contact: 'Confirm partnerships contact', status: 'Research ready' },
+  { id: 'p2', organisation: 'Sky', market: 'UK', fit: 'Media, culture and audience reach', contact: 'Confirm brand partnerships contact', status: 'Research ready' },
+  { id: 'p3', organisation: 'RTÉ', market: 'Ireland', fit: 'Irish broadcast and cultural programming', contact: 'Confirm commissioning or partnerships contact', status: 'Research ready' },
+  { id: 'p4', organisation: 'Virgin Media Television', market: 'Ireland', fit: 'Entertainment and local audience engagement', contact: 'Confirm commercial partnerships contact', status: 'Research ready' },
+  { id: 'p5', organisation: 'The Prince\'s Trust', market: 'UK & Ireland', fit: 'Youth opportunity and social impact', contact: 'Confirm corporate partnerships contact', status: 'Research ready' },
+]
 
 export async function GET() {
   try {
-    const [mailbox, messages] = await Promise.all([getMailboxProfile(), listRecentMessages()])
-    return NextResponse.json({ mailbox, messages })
+    const [mailbox, messages, drafts] = await Promise.all([getMailboxProfile(), listRecentMessages(), listGmailDrafts()])
+    return NextResponse.json({ mailbox, messages, drafts, prospects })
   } catch (error) {
-    return NextResponse.json({ error: gmailErrorMessage(error) }, { status: 502 })
+    return NextResponse.json({
+      mailbox: 'Gmail authorization required',
+      messages: [],
+      drafts: [],
+      prospects,
+      error: gmailErrorMessage(error),
+    })
   }
 }
 

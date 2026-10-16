@@ -72,6 +72,24 @@ export async function createGmailDraft(input: { to: string; subject: string; bod
   return draft.data.id
 }
 
+export async function listGmailDrafts() {
+  const gmail = await getGmailClient()
+  const listed = await gmail.users.drafts.list({ userId: 'me', maxResults: 50 })
+  const drafts = await Promise.all((listed.data.drafts ?? []).map(async ({ id }) => {
+    if (!id) return null
+    const draft = await gmail.users.drafts.get({ userId: 'me', id, format: 'full' })
+    const payload = draft.data.message?.payload
+    return {
+      id,
+      to: headerValue(payload?.headers, 'To'),
+      subject: headerValue(payload?.headers, 'Subject'),
+      body: findPlainTextPart(payload),
+      updatedAt: headerValue(payload?.headers, 'Date'),
+    }
+  }))
+  return drafts.filter((draft): draft is NonNullable<typeof draft> => Boolean(draft))
+}
+
 export async function getMailboxProfile() {
   const gmail = await getGmailClient()
   const profile = await gmail.users.getProfile({ userId: 'me' })
