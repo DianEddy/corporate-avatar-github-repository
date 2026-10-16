@@ -26,6 +26,7 @@ export function findPlainTextPart(payload: { mimeType?: string | null; body?: { 
     const text = findPlainTextPart(part as typeof payload)
     if (text) return text
   }
+  if (payload.body?.data) return decodeMessageBody(payload.body.data)
   return ''
 }
 

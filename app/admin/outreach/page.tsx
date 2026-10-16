@@ -47,7 +47,7 @@ export default function OutreachPage() {
       </section>
       <section className="outreach-panel">
         <div className="panel-heading"><div><p className="eyebrow">Approval queue</p><h2>Gmail drafts</h2></div><button type="button" onClick={() => loadInbox().catch((error) => setStatus(error.message))}>Refresh</button></div>
-        {drafts.length ? <div className="message-list">{drafts.map((item) => <article className="message-row" key={item.id}><div><strong>{item.subject || '(No subject)'}</strong><p>To: {item.to || 'No recipient'}</p></div><span>{item.body.slice(0, 180)}{item.body.length > 180 ? '…' : ''}</span></article>)}</div> : <p className="outreach-muted">No Gmail drafts yet. Use the composer below to prepare the first message.</p>}
+        {drafts.length ? <div className="message-list">{drafts.map((item) => <article className="message-row" key={item.id}><div><strong>{item.subject || '(No subject)'}</strong><p>To: {item.to || 'No recipient'}</p></div><span>{item.body.trim() ? `${item.body.slice(0, 180)}${item.body.length > 180 ? '…' : ''}` : 'This Gmail draft has no readable body yet. Open it in Gmail to review the full content.'}</span></article>)}</div> : <p className="outreach-muted">No Gmail drafts yet. Use the composer below to prepare the first message.</p>}
       </section>
       <section className="outreach-panel">
         <p className="eyebrow">Compose for review</p><h2>Prepare a draft</h2>
