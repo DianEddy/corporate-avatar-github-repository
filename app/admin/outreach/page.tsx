@@ -4,7 +4,7 @@ import { FormEvent, useEffect, useState } from 'react'
 
 type Message = { id: string; from: string; subject: string; date: string; snippet: string }
 type Draft = { id: string; to: string; subject: string; body: string; updatedAt: string }
-type Prospect = { id: string; organisation: string; market: string; fit: string; contact: string; status: string }
+type Prospect = { id: string; organisation: string; market: string; fit: string; contact: string; email: string; status: string }
 
 export default function OutreachPage() {
   const [mailbox, setMailbox] = useState('Loading mailbox…')
@@ -43,7 +43,7 @@ export default function OutreachPage() {
       <section className="outreach-panel">
         <div className="panel-heading"><div><p className="eyebrow">First batch</p><h2>UK &amp; Ireland prospects</h2></div><span className="outreach-muted">{prospects.length} targets</span></div>
         <p className="outreach-muted">These are review candidates, not approved contacts. Confirm the right person and public contact route before outreach.</p>
-        <div className="message-list">{prospects.map((prospect) => <article className="message-row" key={prospect.id}><div><strong>{prospect.organisation}</strong><p>{prospect.market} · {prospect.status}</p></div><span>{prospect.fit}<br />{prospect.contact}</span></article>)}</div>
+        <div className="message-list">{prospects.map((prospect) => <article className="message-row" key={prospect.id}><div><strong>{prospect.organisation}</strong><p>{prospect.market} · {prospect.status}</p></div><span>{prospect.fit}<br />{prospect.contact}<br /><strong className="prospect-email">Email: {prospect.email}</strong></span></article>)}</div>
       </section>
       <section className="outreach-panel">
         <div className="panel-heading"><div><p className="eyebrow">Approval queue</p><h2>Gmail drafts</h2></div><button type="button" onClick={() => loadInbox().catch((error) => setStatus(error.message))}>Refresh</button></div>

@@ -2,11 +2,11 @@ import { NextResponse } from 'next/server'
 import { createGmailDraft, gmailErrorMessage, getMailboxProfile, listGmailDrafts, listRecentMessages } from '@/lib/gmail'
 
 const prospects = [
-  { id: 'p1', organisation: 'BBC Studios', market: 'UK', fit: 'Entertainment and unscripted storytelling', contact: 'Confirm partnerships contact', status: 'Research ready' },
-  { id: 'p2', organisation: 'Sky', market: 'UK', fit: 'Media, culture and audience reach', contact: 'Confirm brand partnerships contact', status: 'Research ready' },
-  { id: 'p3', organisation: 'RTÉ', market: 'Ireland', fit: 'Irish broadcast and cultural programming', contact: 'Confirm commissioning or partnerships contact', status: 'Research ready' },
-  { id: 'p4', organisation: 'Virgin Media Television', market: 'Ireland', fit: 'Entertainment and local audience engagement', contact: 'Confirm commercial partnerships contact', status: 'Research ready' },
-  { id: 'p5', organisation: 'The Prince\'s Trust', market: 'UK & Ireland', fit: 'Youth opportunity and social impact', contact: 'Confirm corporate partnerships contact', status: 'Research ready' },
+  { id: 'p1', organisation: 'BBC Studios', market: 'UK', fit: 'Entertainment and unscripted storytelling', contact: 'Confirm partnerships contact', email: 'Not yet verified', status: 'Research ready' },
+  { id: 'p2', organisation: 'Sky', market: 'UK', fit: 'Media, culture and audience reach', contact: 'Confirm brand partnerships contact', email: 'Not yet verified', status: 'Research ready' },
+  { id: 'p3', organisation: 'RTÉ', market: 'Ireland', fit: 'Irish broadcast and cultural programming', contact: 'Confirm commissioning or partnerships contact', email: 'Not yet verified', status: 'Research ready' },
+  { id: 'p4', organisation: 'Virgin Media Television', market: 'Ireland', fit: 'Entertainment and local audience engagement', contact: 'Confirm commercial partnerships contact', email: 'Not yet verified', status: 'Research ready' },
+  { id: 'p5', organisation: 'The Prince\'s Trust', market: 'UK & Ireland', fit: 'Youth opportunity and social impact', contact: 'Confirm corporate partnerships contact', email: 'Not yet verified', status: 'Research ready' }, 
 ]
 
 export async function GET() {
