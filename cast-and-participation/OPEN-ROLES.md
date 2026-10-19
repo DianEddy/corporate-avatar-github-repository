@@ -70,7 +70,7 @@ See the [series brief](../production/eight-episode-series.md) for the separate s
 
 ## Apply
 
-Email **edidirect@edimassive.com** with the relevant subject line and include your name, location, role, experience, portfolio links, availability, working location, expected contribution, and preferred engagement arrangement.
+Email **partnerships@goodheartapp.com** with the relevant subject line and include your name, location, role, experience, portfolio links, availability, working location, expected contribution, and preferred engagement arrangement.
 
 For casting: `CASTING — [ROLE ID] — [ROLE NAME] — [YOUR NAME]`  
 For event production: `EVENT PRODUCTION — [ROLE] — [YOUR NAME]`  

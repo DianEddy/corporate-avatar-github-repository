@@ -2,13 +2,13 @@
 
 ## Corporate Avatar: Off Duty After
 
-This working strategy identifies prospective partners for a 24-hour fashion, technology, and culture livestream. It is a public prospecting document—not a list of confirmed sponsors or an offer of partnership.
+This public overview identifies partnership categories and evaluation criteria for a 24-hour fashion, technology, and culture livestream. It intentionally omits confidential budget figures, named prospect lists, contact records, and negotiation notes. Those materials belong in a private workspace and should never be committed to this public repository.
 
 ## The presenting-sponsor opportunity
 
-The working presenting-sponsor target is **$60,000 in cash**. This figure is based on the current event budget and is not a confirmed quote or vendor-validated cost.
+The presenting-sponsor opportunity is structured around a title partnership and clearly defined deliverables. Commercial terms are shared privately with qualified partners after an introductory conversation.
 
-The strongest prospects can contribute across three connected areas:
+The strongest partners can contribute across three connected areas:
 
 - Fashion technology: clothing, identity, digital wardrobes, creativity, and self-expression.
 - 24-hour streaming technology: phones, production equipment, connectivity, and technical support.
@@ -18,19 +18,17 @@ The preferred title is:
 
 > **Corporate Avatar: Off Duty After, presented by [Partner]**
 
-## First outreach wave
+## Partnership categories
 
-The first tailored conversations should focus on:
+Potential partner categories include:
 
-1. **Samsung** — a strong combination of Galaxy devices, production technology, Samsung Ads, and content sponsorship.
-2. **YouTube** — livestream distribution, creator partnerships, and advertising support.
-3. **Twitch** — a natural fit for continuous live programming, audience interaction, and creator-led culture.
-4. **TikTok** — fashion discovery, creator collaborations, short-form highlights, and pre- and post-event reach.
-5. **Apple** — mobile-first production, creator tools, and visual storytelling through iPhone.
+- Consumer technology and mobile production.
+- Livestream, creator, and distribution platforms.
+- Fashion, beauty, retail, and digital wardrobe brands.
+- Creative software, marketplaces, and professional networks.
+- Connectivity, media, and audience-development partners.
 
-In parallel, the project can explore supporting or activation partnerships with Adobe, Pinterest, Levi Strauss & Co., Poshmark, Etsy, Depop, LinkedIn, Gap, and Verizon.
-
-These are prospective partners only. Official outreach routes are starting points; they do not establish that a company accepts unsolicited sponsorship proposals.
+A named prospect list, contact details, qualification notes, and outreach sequencing are maintained privately. Public materials describe the opportunity without implying that any organization has been contacted or endorsed it.
 
 ## What to request
 
@@ -72,13 +70,13 @@ The package should make five points immediately clear:
 2. The production: a Brooklyn event connected to a continuous livestream.
 3. The technology: mobile production, fashion-tech integration, and a potential GoodHeart digital-wardrobe component.
 4. The commercial opportunity: presenting-sponsor visibility, agreed integrations, and defined media deliverables.
-5. The ask: $60,000 in cash, with equipment, advertising, and distribution treated as additional or separately negotiated contributions.
+5. The ask: a tailored commercial package with cash, equipment, advertising, and distribution evaluated as separate, documented contributions.
 
 Before promising audience reach, confirm a distribution plan, promotional calendar, target audience, and realistic media budget.
 
 ## Outreach and confidentiality
 
-Use the public repository as a conversation starter, then move budgets, proposals, negotiations, personal data, and draft agreements to private channels. Introductory partnership inquiries can be sent to **edidirect@edimassive.com** with the subject line:
+Use the public repository as a conversation starter, then move budgets, proposals, negotiations, personal data, and draft agreements to private channels. Introductory partnership inquiries can be sent to **partnerships@goodheartapp.com** with the subject line:
 
 `PARTNERSHIP INQUIRY — [ORGANIZATION] — [YOUR NAME]`
 

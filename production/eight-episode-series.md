@@ -39,7 +39,7 @@ Indicate whether you are interested in the series, the 24-hour event, or both. P
 
 ## How to apply
 
-Email **edidirect@edimassive.com** with the subject line:
+Email **partnerships@goodheartapp.com** with the subject line:
 
 `SERIES PRODUCTION — [ROLE] — [YOUR NAME]`
 

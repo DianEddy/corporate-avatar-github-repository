@@ -40,7 +40,7 @@ Read [Open Roles](cast-and-participation/OPEN-ROLES.md) and the relevant project
 
 ## How to express interest
 
-Email **edidirect@edimassive.com** with one of these subject lines:
+Email **partnerships@goodheartapp.com** with one of these subject lines:
 
 - `CASTING — [ROLE ID] — [ROLE NAME] — [YOUR NAME]`
 - `EVENT PRODUCTION — [ROLE] — [YOUR NAME]`
@@ -75,7 +75,7 @@ Project details remain in development. Dates, venue, ticket information, casting
 Corporate Avatar: Off Duty is a project of **DMT Outfitters LLC**, developed with GoodHeart and its wider creative community. See [COPYRIGHT.md](COPYRIGHT.md) before reproducing or adapting project materials.
 
 **Corporate Avatar: Off Duty / GoodHeart**
-**edidirect@edimassive.com**
+**partnerships@goodheartapp.com**
 
 [GoodHeart](https://www.goodheartapp.com/)
 
